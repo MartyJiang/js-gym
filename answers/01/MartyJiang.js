@@ -5,7 +5,7 @@
  */
 function* range(o) {
 	if (!o || typeof o != "object") {
-		throw new TypeError("A Array or Object required.")
+		throw new TypeError("Array or Object required.")
 	}
 
 	if (o instanceof Array) {
@@ -20,4 +20,4 @@ function* range(o) {
 	}
 }
 
-module.exports = range
+exports.range = range
