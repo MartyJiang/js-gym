@@ -19,3 +19,5 @@ function* range(o) {
 		yield [k, o[k]]
 	}
 }
+
+module.exports = range
